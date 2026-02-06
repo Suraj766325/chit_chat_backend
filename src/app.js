@@ -6,7 +6,7 @@ import errorHandler from './middlewares/errorHandler.middleware.js'
 
 const app=express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:["http://localhost:5173","https://chit-chat-talkify.vercel.app"],
     credentials: true, 
 }))
 app.use(express.json())
