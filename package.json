@@ -1,0 +1,30 @@
+{
+  "name": "chit-chat",
+  "version": "1.0.0",
+  "description": "chit-chat webapp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
+  "keywords": [
+    "chit-chat"
+  ],
+  "author": "suraj agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.9.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.5",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.3",
+    "streamifier": "^0.1.1"
+  }
+}
